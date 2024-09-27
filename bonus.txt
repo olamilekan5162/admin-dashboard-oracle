@@ -1,0 +1,12 @@
+NAME {
+    OPEYEMI OLALEKAN TEMITOPE
+}
+E-MAIL {
+    opeyemiolalekan481@gmail.com
+}
+
+ACCOUNT-DETAILS {
+    SALAMI OLALEKAN TEMITOPE
+    8165998637
+    OPAY
+}
