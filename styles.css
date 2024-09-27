@@ -152,6 +152,7 @@
     display: flex;
     flex-direction: row;
     flex: 1;
+    background-color: #f3f4f6;
 }
 
 .body-container .body-left {
@@ -164,21 +165,52 @@
     width: 30%;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     gap: 30px;
 }
 
 .body-container .body-right .top{
-    background-color: indianred;
     margin-top: 20px;
     display: flex;
     flex-direction: column;
+    background-color: #f3f4f6;
     height: 50%;
-    gap: 2px;
+    gap: 4px;
 }
 
-.body-container .body-right h1{
+.body-right .top h1{
     font-size: large;
     font-weight: 700;  
+}
+
+.top .content-container{
+    display: flex; 
+    flex-direction: column;
+    background-color: white;
+    border-radius: 5px;
+    width: 300px;
+    padding: 20px;
+    gap: 15px;
+    
+}
+
+.top .content-container .content {
+    display: flex; 
+    flex-direction: column;
+}
+
+.top .content-container h1{
+    font-size: small;
+    font-weight: 700; 
+}
+
+.top .content-container p{
+    font-size: smaller;
+}
+
+hr {
+    margin-top: 20px;
 }
 
 
